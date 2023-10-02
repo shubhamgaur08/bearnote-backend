@@ -7,7 +7,7 @@ const app = express()
 const port = 5000
 
 app.use(cors({
-  origin: '*'
+  origin: 'https://bearnote.vercel.app/'
 }));
 app.use(express.json())
 
